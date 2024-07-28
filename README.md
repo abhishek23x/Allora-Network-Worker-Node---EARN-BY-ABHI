@@ -4,19 +4,19 @@
 
 
 
-**Code For Updating:**
+1. **Code For Updating:**
 ```
 sudo apt update && sudo apt upgrade -y \
 
 sudo apt install curl git jq build-essential gcc unzip wget lz4 -y
 ```
 
-**Now Run The Worker:**
+2. **Now Run The Worker:**
 ```
 wget https://raw.githubusercontent.com/dxzenith/allora-worker-node/main/allora.sh && chmod +x allora.sh && ./allora.sh
 ```
 
-**If There Is Any Error , Use Command Below:**
+3. **If There Is Any Error , Use Command Below:** ( Optional )
 ```
 sudo usermod -aG docker $USER
 ```
@@ -24,7 +24,9 @@ sudo usermod -aG docker $USER
 sudo reboot
 ```
 
-**Now You Can Check Status:**
+4. **In Next Step , You Need To Enter Keplr Phrase Key & HEAD ID**
+
+5. **Now You Can Check Status:**
 ```
   curl --location 'http://localhost:6000/api/v1/functions/execute' \
 --header 'Content-Type: application/json' \
@@ -50,7 +52,7 @@ sudo reboot
 }'
 ```
 
-**Now Lets Migrate Worker Node To V2:**
+6. **Now Lets Migrate Worker Node To V2:**
 ```
 wget -O testnetmigrator.sh https://raw.githubusercontent.com/casual1st/alloraworkersetup/main/testnetmigrator.sh && chmod +x testnetmigrator.sh && ./testnetmigrator.sh
 ```
