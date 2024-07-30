@@ -8,8 +8,8 @@
 ```
 wget https://raw.githubusercontent.com/dxzenith/allora-worker-node/main/allora.sh && chmod +x allora.sh && ./allora.sh
 
+```
 
+👉🏻**Join Our Telegram:** https://t.me/EarnByAbhi23
 
-👉🏻 Join Our Telegram: https://t.me/EarnByAbhi23
-
-👉🏻 Follow On Twitter : https://x.com/EarnByAbhi
+👉🏻**Follow Our Twitter:** https://x.com/EarnByAbhi
